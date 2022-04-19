@@ -373,3 +373,8 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 .search-menu .search-input {
   border: none;
 }
+
+.search-menu .search-input:focus-within {
+    border: none;
+    outline: none;
+}
