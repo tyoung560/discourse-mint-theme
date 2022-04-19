@@ -417,3 +417,23 @@ html body #main-outlet {
     width: 85%;
   }
 }
+
+.published-page {
+  .background-container {
+    display: none;
+  }
+  &::before {
+    background: linear-gradient(
+      90deg,
+      var(--tertiary-hover) 0%,
+      var(--tertiary) 100%
+    );
+    clip-path: ellipse(148% 70% at 91% -14%);
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    z-index: 0;
+  }
+}
